@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+ <head>
+            <title>吾人商店</title>
+        <head>
+        <body>
+            <h1><center>加入會員</center></h1>
+            <form action="upload" method="post" enctype="multipart/form-data">
+                <table align="center" style="border:2px green solid;border-radius:5px;width:460px;height:50px;background-color:#eee;" >
+                    <tr>
+                        <td width="125" height="35">Name：</td>
+                        <td width="300" ><input type="textbox" name="member_name"/></td>
+                    </tr>
+                    <tr>
+                        <td width="125" height="35">Age：</td>
+                        <td width="300"><input type="textbox" name="member_age"/></td>
+                    </tr>
+                    <tr>
+                        <td width="125" height="35">Email：</td>
+                        <td width="300">
+                            <input type="textbox" name="member_email">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="125" height="35">Marital_status：</td>
+                        <td width="300">
+                            <input type="radio" name="member_maritalstatus" value="married" checked="true">已婚
+                            <input type="radio" name="member_maritalstatus" value="unmarried">未婚
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="125" height="35">Income：</td>
+                        <td width="300">
+                            <input type="textbox" name="member_income">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="125" height="35">Household：</td>
+                        <td width="300">
+                            <select name="number">
+                                <option value="1">1
+                                <option value="2">2
+                                <option value="3">3
+                                <option value="4">4
+                                <option value="5+">5+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="125" height="35">Kid：</td>
+                        <td width="300">
+                            <select name="kid">
+                                <option value="0">0
+                                <option value="1">1
+                                <option value="2">2
+                                <option value="3+">3+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="125" height="35">Photo：</td>
+                        <td width="300">
+                            <input type="file" multiple="" name="file[]" class="span3"><br/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="125" height="35" colspan="2">
+                            <center>
+                                <input type="submit" value="送出資料">
+                                <input type="reset" value="重新填寫">
+                            </center>
+                        </td>
+                    </tr>
+			    </table>
+            </form>
+        </body>
+    </html>
+</html>
